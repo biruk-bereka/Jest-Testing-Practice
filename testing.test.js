@@ -17,3 +17,8 @@ test('abcd', ()=>{
   const test = 'abcd'
   expect(reverseString(test)).toMatch(/dcba/);
 })
+
+test('hello there', ()=>{
+  const test = 'hello there'
+  expect(reverseString(test)).toMatch(/ereht olleh/);
+})
